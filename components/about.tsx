@@ -26,7 +26,7 @@ export default function About() {
         <span className="font-semibold"> React, Next.js, Node.js, and MongoDB. </span>
         I am also familiar with
         <span className="font-medium"> TypeScript, Tailwind CSS, shadcn/ui, GraphQL, Prisma, AWS and GCP. </span>
-        I am always looking to learn new technologies. I'm currently offering
+        I am always looking to learn new technologies. I am currently offering
         <span className="font-medium"> a full-stack web solution.</span>
       </p>
 

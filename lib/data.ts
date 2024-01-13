@@ -35,26 +35,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Warior bootcamp",
+    location: "Dhaka, Bangladesh",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I studied and practiced for 1 year. I immediately joined as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Dhaka, Bangladesh",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 1 year at 6sense Technologies Ltd. I also upskilled to the full-stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2020",
+  },
+  {
+    title: "Software Quality Assurance",
+    location: "Dhaka, Bangladesh",
+    description:
+      "I worked as a software quality assurance for 6 months at 6sense Technologies Ltd. I also upskilled to the full-stack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2021",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Dhaka, Bangladesh",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer and a co-founder of a software firm called Greelab. My stack includes React, Next.js, Node.js, and MongoDB. I'm currently offering a full-stack web solution.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -85,8 +93,8 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "HTML5",
+  "CSS3",
   "JavaScript",
   "TypeScript",
   "React",
@@ -94,14 +102,15 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "shadcn/ui",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Three.js",
+  "AWS",
+  "GCP"
 ] as const;

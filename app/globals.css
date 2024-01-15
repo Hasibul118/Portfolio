@@ -13,3 +13,12 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+.intro-header{
+  font-size: 1.4rem;
+}
+
+.about-card{
+  background-color: #fefefe0d;
+  border-radius: 12px;
+  padding: 10px;
+}

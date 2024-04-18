@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-semibold">full-stack developer</span> with{" "}
         <span className="font-semibold">3+ years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My current stack is{" "}
-        <span className="font-bold">React, Next.js, Node.js, and MongoDB</span>.
+        <span className="font-bold">React, Laravel, Next.js, Node.js, and MongoDB, PostgreSQL</span>.
       </motion.h1>
 
       <motion.div
@@ -92,10 +92,10 @@ export default function Intro() {
 
           <a
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-            href="/Resume.pdf"
+            href="/CV.pdf"
             download
           >
-            Resume{" "}
+            CV{" "}
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
           </a>
         </div>

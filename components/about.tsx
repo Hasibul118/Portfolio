@@ -24,9 +24,9 @@ export default function About() {
           <span className="font-medium"> full-stack web development. </span>
           My favorite part of programming is the <span className="font-medium">problem-solving</span> aspect.
           I love the feeling of finally figuring out a solution to a problem. My core stack is
-          <span className="font-semibold"> React, Next.js, Node.js, and MongoDB. </span>
+          <span className="font-semibold"> React, Laravel, Next.js, Node.js, and MongoDB, PostgreSQL. </span>
           I am also familiar with
-          <span className="font-medium"> TypeScript, Tailwind CSS, shadcn/ui, GraphQL, Prisma, AWS and GCP. </span>
+          <span className="font-medium"> TypeScript, Tailwind CSS, shadcn/ui, MySQL, GraphQL, Prisma, AWS and GCP. </span>
           I am always looking to learn new technologies. I am currently offering
           <span className="font-medium"> a full-stack web solution.</span>
         </p>
@@ -34,7 +34,7 @@ export default function About() {
         <p className="mb-3">
           When I am not coding, I enjoy doing <span className="font-medium">DIY projects, </span>
           playing games, and sports. I also enjoy <span className="font-medium"> learning new things. </span>
-          I am currently learning about <span className="font-medium">EV and solar</span>.
+          I am currently learning about <span className="font-medium">EV and solar energy</span>.
         </p>
 
         <p>

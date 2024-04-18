@@ -68,7 +68,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Dhaka, Bangladesh",
     description:
-      "I'm now a full-stack developer and a co-founder of a software firm called Greelab. My stack includes React, Next.js, Node.js, and MongoDB. I'm currently offering a full-stack web solution.",
+      "I'm now a full-stack developer and a co-founder of a software firm called Greelab. My stack includes React, Laravel, Next.js, Node.js, and MongoDB, PostgreSQL. I'm currently offering a full-stack web solution.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -152,9 +152,11 @@ export const projectsData = [
 export const skillsData = [
   "HTML5",
   "CSS3",
+  "PHP",
   "JavaScript",
   "TypeScript",
   "React",
+  "Laravel",
   "Next.js",
   "Node.js",
   "Git",

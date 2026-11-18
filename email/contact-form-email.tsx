@@ -1,16 +1,4 @@
 import React from "react";
-import {
-  Html,
-  Body,
-  Head,
-  Heading,
-  Hr,
-  Container,
-  Preview,
-  Section,
-  Text,
-} from "@react-email/components";
-import { Tailwind } from "@react-email/tailwind";
 
 type ContactFormEmailProps = {
   message: string;
@@ -22,23 +10,40 @@ export default function ContactFormEmail({
   senderEmail,
 }: ContactFormEmailProps) {
   return (
-    <Html>
-      <Head />
-      <Preview>New message from your portfolio site</Preview>
-      <Tailwind>
-        <Body className="bg-gray-100 text-black">
-          <Container>
-            <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
-              <Heading className="leading-tight">
-                You received the following message from the contact form
-              </Heading>
-              <Text>{message}</Text>
-              <Hr />
-              <Text>The senders email is: {senderEmail}</Text>
-            </Section>
-          </Container>
-        </Body>
-      </Tailwind>
-    </Html>
+    <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <title>New message from your portfolio site</title>
+      </head>
+      <body
+        style={{
+          margin: 0,
+          padding: "24px",
+          backgroundColor: "#f3f4f6",
+          color: "#111827",
+          fontFamily: "Arial, Helvetica, sans-serif",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: "600px",
+            margin: "0 auto",
+            padding: "24px",
+            border: "1px solid #e5e7eb",
+            borderRadius: "6px",
+            backgroundColor: "#ffffff",
+          }}
+        >
+          <h1 style={{ marginTop: 0, fontSize: "24px", lineHeight: 1.25 }}>
+            You received the following message from the contact form
+          </h1>
+          <p style={{ whiteSpace: "pre-wrap", overflowWrap: "anywhere" }}>
+            {message}
+          </p>
+          <hr style={{ border: 0, borderTop: "1px solid #e5e7eb" }} />
+          <p>The sender&apos;s email is: {senderEmail}</p>
+        </div>
+      </body>
+    </html>
   );
 }
